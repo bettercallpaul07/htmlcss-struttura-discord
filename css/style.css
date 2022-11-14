@@ -4,3 +4,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.header-container {
+    height: 100px;
+    background-color: lightblue;
+    padding: 15px 150px;
+    width: ;
+}
+
+.navbar {
+    min-height: 50px;
+    padding: 30px;
+    border: 1px dashed black;
+    /* display: flex;
+    align-items: center; */
+}
+
+.main-content {
+    height: 600px;
+
+}
+
+.first-box {
+    background-color: darkblue;
+}
+
+.second-box, .fourth-box {
+    background-color: white;
+}
+
+.third-box {
+    background-color: grey;
+}
+
+.fifth-box {
+    height: 800px;
+    background-color: grey;
+}
+
+
+footer {
+    height: 800px;
+    background-color: rgba(28, 25, 25, 0.946);
+}
