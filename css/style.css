@@ -7,38 +7,38 @@
 
 
 
-
 .header-container {
     height: 100px;
     background-color: lightblue;
     padding: 30px 150px;
     display: flex;
-    
 }
 
 .main-content {
     height: 600px;
-
 }
+
 
 .logo {
     width: 25%;
-    align-items: center;
     padding: 5px;
 }
 
 .navbar {
     width: 50%;
     text-align: center;
-
-
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
+
+
 
 .login {
     width: 25%;
     text-align: right;
     padding: 5px;
-
 }
 
 .logo, .navbar, .login {
@@ -52,8 +52,6 @@
     justify-content: center;
     align-items: center;
     border: 1px dashed black;
-
-
 }
 
 .primary-content {
@@ -61,7 +59,6 @@
     height: 80%;
     background-color: pink;
     border: 1px dashed black;
-
 }
 
 
