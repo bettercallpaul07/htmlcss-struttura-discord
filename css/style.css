@@ -13,7 +13,7 @@
     background-color: lightblue;
     padding: 30px 150px;
     display: flex;
-    justify-content: center;
+    
 }
 
 .main-content {
@@ -24,18 +24,13 @@
 .logo {
     width: 25%;
     align-items: center;
-
     padding: 5px;
 }
 
 .navbar {
     width: 50%;
-
-}
-
-.navbar {
-    width: 50%;
     text-align: center;
+
 
 }
 
@@ -162,4 +157,24 @@ footer {
     height: 95%;
     border: 1px dashed white;
     background-color:aquamarine;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    width: 10%;
+    height: 50px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.button-footer {
+    width: 10%;
+    height: 50px;
+    background-color: pink;
+    border: 1px dashed black;
 }
